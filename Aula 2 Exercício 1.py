@@ -3,7 +3,7 @@ nota1 = 5
 nota2 = 6
 media = (nota1+nota2)/2
 nome = "Antonio da Silva"
-disciplina = "Programação de Computadores"
+disciplina = "Ciências da Computação - Unicsul"
 print("*******************************************")
 print("Nome do Aluno? ", nome)
 print("Disciplina:  ", nome)
