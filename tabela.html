@@ -1,0 +1,61 @@
+<!DOCTYPE html><html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Preços</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            text-align: center;
+        }
+        th, td {
+            border: 2px solid black;
+            padding: 10px;
+            position: relative;
+        }
+        th {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .bold {
+            font-weight: bold;
+        }
+        th::after, td::after {
+            content: "";
+            position: absolute;
+            top: 3px;
+            left: 3px;
+            right: 3px;
+            bottom: 3px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h2>Resultado no navegador/browser ...</h2>
+    <table>
+        <tr>
+            <th colspan="6">Tabela de Preços</th>
+        </tr>
+        <tr>
+            <td rowspan="2" class="bold">NOVOS</td>
+            <td>XIAOMI</td>
+            <td>SAMSUNG</td>
+            <td>APPLE</td>
+            <td>MOTOROLA</td>
+            <td>LG</td>
+        </tr>
+        <tr>
+            <td>R$2500</td>
+            <td>R$3500</td>
+            <td>R$7000</td>
+            <td>R$1500</td>
+            <td>R$2000</td>
+        </tr>
+        <tr>
+            <td colspan="6" class="bold">Compre AGORA...</td>
+        </tr>
+    </table>
+</body>
+</html>
